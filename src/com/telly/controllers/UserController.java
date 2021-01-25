@@ -22,6 +22,18 @@ import com.telly.service.UserService;
 @Controller
 public class UserController {
 
+<<<<<<< HEAD
+	@RequestMapping("/login")
+	public String showLogin() {
+		return "login";
+	}
+	
+	@RequestMapping("/loggedout")
+	public String showLogout() {
+		return "loggedout";
+	}
+	
+=======
 	@Autowired
 	UserService userService;
 	
@@ -49,6 +61,7 @@ public class UserController {
 
 	}
 
+>>>>>>> gestion_des_utilisateurs
 }
 
 
